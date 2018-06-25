@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these files
+!*.R
+!*.py
+!*.sql
+!*.sas
+!*.sh
+!*.bat
+!*.gitignore
+find * -size +5M | cat
+
